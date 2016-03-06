@@ -37,7 +37,7 @@
     "url": "https://github.com/Mashape/mockbin/issues"
   },
   "config": {
-    "port": 80,
+    "port": 8080,
     "quiet": false,
     "redis": "redis://h:p91dn5fepcg2o3f7n04lm6hqj9t@ec2-54-227-251-129.compute-1.amazonaws.com:10629",
     "commitizen": {
