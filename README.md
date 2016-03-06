@@ -130,7 +130,7 @@ Editor preferences are available in the [editor config](.editorconfig) for easy 
 [david-image]: https://img.shields.io/david/Mashape/mockbin.svg?style=flat-square
 
 [docker-image]: https://www.herokucdn.com/deploy/button.svg
-[docker-url]: https://heroku.com/deploy?template=https://github.com/Mashape/mockbin
+[docker-url]: https://heroku.com/deploy?template=https://github.com/rdenhaanalonso/heroku-mockbin
 [docker-logo]: https://d3oypxn00j2a10.cloudfront.net/0.16.0/images/pages/brand_guidelines/small_h.png
 
 [gitter-url]: https://gitter.im/Mashape/mockbin
