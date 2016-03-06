@@ -1,11 +1,11 @@
 {
   "name": "mockbin",
-  "description": "Test, mock, and track HTTP requests & responses between libraries, sockets and APIs",
-  "repository": "https://github.com/Mashape/mockbin",
+  "description": "Test, mock, and track HTTP requests & responses between libraries, sockets and APIs. Modified for Heroku free REDIS addon.",
+  "repository": "https://github.com/rdenhaanalonso/heroku-mockbin",
   "website": "http://mockbin.org/",
   "success_url": "/",
   "addons": [
-    "openredis"
+    "heroku-redis"
   ],
   "keywords": [
     "api",
