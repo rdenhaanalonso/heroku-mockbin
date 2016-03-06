@@ -39,13 +39,13 @@
   "config": {
     "port": 8080,
     "quiet": false,
-    "redis": "redis://h:p91dn5fepcg2o3f7n04lm6hqj9t@ec2-54-227-251-129.compute-1.amazonaws.com:10629",
+    "redis": "redis://127.0.0.1:6379",
     "commitizen": {
       "path": "./node_modules/cz-conventional-changelog"
     }
   },
   "scripts": {
-    "start": "node bin/mockbin",
+    "start": "node server.js",
     "test": "mocha --recursive",
     "pretest": "standard && echint",
     "coverage": "istanbul cover --dir coverage _mocha -- --recursive --fgrep 'Request Validation' --invert --reporter dot",

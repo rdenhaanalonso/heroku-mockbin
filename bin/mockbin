@@ -15,6 +15,4 @@ cmd
 
 app(cmd, function () {
   console.info('starting server on port: %d', cmd.port)
-  console.info('quiet: %d', cmd.quiet);
-  console.info('redis: %d', cmd.redis);
 })
