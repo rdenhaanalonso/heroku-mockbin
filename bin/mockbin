@@ -8,9 +8,9 @@ var pkg = require('../package')
 
 cmd
   .version(pkg.version)
-  .option('-p, --port <port>', 'HTTP server port', pkg.config.port)
-  .option('-q, --quiet', 'disable console logging', pkg.config.quiet)
-  .option('-r, --redis [dsn]', 'redis dsn', pkg.config.redis)
+  .option('-p, --port <port>', 'HTTP server port', process.env.PORT)
+  .option('-q, --quiet', 'disable console logging', process.env.QUIET)
+  .option('-r, --redis [dsn]', 'redis dsn', process.env.REDIS_URL)
   .parse(process.argv)
 
 app(cmd, function () {

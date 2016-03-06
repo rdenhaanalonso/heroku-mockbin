@@ -7,9 +7,9 @@ var pkg = require('./package')
 dotenv.config({ silent: true })
 
 var options = {
-  port: process.env.MOCKBIN_PORT || pkg.config.port,
-  quiet: process.env.MOCKBIN_QUIET || pkg.config.quiet,
-  redis: process.env.REDIS_URL || pkg.config.redis
+  port: process.env.PORT,
+  quiet: process.env.QUIET,
+  redis: process.env.REDIS_URL
 }
 
 app(options, function () {
