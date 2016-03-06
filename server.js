@@ -13,5 +13,7 @@ var options = {
 }
 
 app(options, function () {
-  console.info('starting server on port: %d', options.port)
+  console.info('starting server on port: %d', options.port);
+  console.info('quiet: %d', options.quiet);
+  console.info('redis: %d', options.redis);
 })

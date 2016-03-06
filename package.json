@@ -37,9 +37,9 @@
     "url": "https://github.com/Mashape/mockbin/issues"
   },
   "config": {
-    "port": 8080,
+    "port": 80,
     "quiet": false,
-    "redis": "redis://127.0.0.1:6379",
+    "redis": "redis://h:p91dn5fepcg2o3f7n04lm6hqj9t@ec2-54-227-251-129.compute-1.amazonaws.com:10629",
     "commitizen": {
       "path": "./node_modules/cz-conventional-changelog"
     }
